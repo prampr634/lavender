@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Lavender"
+version = "1.0.0"
+id = "artifacts/pixelbloom"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24340
+
+[services.development]
+run = "pnpm --filter @workspace/pixelbloom run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/pixelbloom", "run", "build" ]
+publicDir = "artifacts/pixelbloom/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24340"
+BASE_PATH = "/"

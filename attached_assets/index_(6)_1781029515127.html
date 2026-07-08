@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PixelBloom Studio — Custom Websites</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-brand">PixelBloom Studio</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- DRAWER OVERLAY -->
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <div class="drawer" id="drawer">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HOME / HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes" aria-hidden="true">
+      <div class="shape shape-circle-lg"></div>
+      <div class="shape shape-circle-sm"></div>
+      <div class="shape shape-line-h"></div>
+      <div class="shape shape-line-v"></div>
+      <div class="shape shape-rect"></div>
+    </div>
+    <div class="hero-content">
+      <h1 class="hero-heading fade-up">Custom Websites Designed to Help You Grow.</h1>
+      <p class="hero-sub fade-up delay-1">Professional, modern websites for businesses, clubs, organizations, events, and personal brands.</p>
+      <div class="hero-btns fade-up delay-2">
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+        <a href="#portfolio" class="btn btn-outline">View My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE ME -->
+  <section class="why section-alt" id="why">
+    <div class="container">
+      <h2 class="section-title fade-up">Why Choose Me</h2>
+      <div class="why-grid">
+        <div class="why-card fade-up stagger-1">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3>Fast Communication</h3>
+          <p>You'll always know where your project stands. I respond quickly and keep you in the loop at every step.</p>
+        </div>
+        <div class="why-card fade-up stagger-2">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <h3>Custom Design</h3>
+          <p>No templates. Every site is built from scratch to match your brand, your audience, and your goals.</p>
+        </div>
+        <div class="why-card fade-up stagger-3">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          </div>
+          <h3>Mobile Friendly</h3>
+          <p>Every site looks and works perfectly on phones, tablets, and desktops — no compromises.</p>
+        </div>
+        <div class="why-card fade-up stagger-4">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+          </div>
+          <h3>Affordable Pricing</h3>
+          <p>Professional results at prices that make sense. Transparent packages with no surprise costs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECTS -->
+  <section class="featured" id="featured">
+    <div class="container">
+      <h2 class="section-title fade-up">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card fade-up stagger-1">
+          <div class="project-img-wrap">
+            <div class="project-img project-img-1"></div>
+            <div class="project-overlay"><span class="arrow-icon">→</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-tag">Business</div>
+            <h3>Oakwood Interiors</h3>
+            <p>A full redesign for a local interior design firm, bringing their portfolio online with a clean, image-forward layout that converts visitors into inquiries.</p>
+          </div>
+        </div>
+        <div class="project-card fade-up stagger-2">
+          <div class="project-img-wrap">
+            <div class="project-img project-img-2"></div>
+            <div class="project-overlay"><span class="arrow-icon">→</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-tag">School Club</div>
+            <h3>Westlake Robotics Club</h3>
+            <p>A vibrant club site with event schedules, team bios, and a photo gallery — giving students a professional home base for their program.</p>
+          </div>
+        </div>
+        <div class="project-card fade-up stagger-3">
+          <div class="project-img-wrap">
+            <div class="project-img project-img-3"></div>
+            <div class="project-overlay"><span class="arrow-icon">→</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-tag">Events</div>
+            <h3>Harvest Festival 2024</h3>
+            <p>A time-sensitive event site with ticketing integration, vendor info, and a live countdown — launched in under a week before the big day.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section-alt" id="testimonials">
+    <div class="container">
+      <h2 class="section-title fade-up">What Clients Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card fade-up stagger-1">
+          <div class="stars">★★★★★</div>
+          <p>"Prathika delivered something I genuinely didn't think was possible in my budget. The site feels high-end, it's fast, and my clients have already noticed."</p>
+          <div class="client-info">
+            <div class="avatar">SM</div>
+            <div>
+              <div class="client-name">Sarah M.</div>
+              <div class="client-role">Owner, Studio Maeve</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-up stagger-2">
+          <div class="stars">★★★★★</div>
+          <p>"We needed a site for our club fast, and Prathika came through. Communication was great throughout, and the final product was exactly what we envisioned."</p>
+          <div class="client-info">
+            <div class="avatar">JT</div>
+            <div>
+              <div class="client-name">James T.</div>
+              <div class="client-role">President, Westlake Robotics</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-up stagger-3">
+          <div class="stars">★★★★★</div>
+          <p>"Professional, responsive, and incredibly talented. Our event site went live in days and looked better than sites from agencies we'd paid triple for."</p>
+          <div class="client-info">
+            <div class="avatar">RL</div>
+            <div>
+              <div class="client-name">Rachel L.</div>
+              <div class="client-role">Event Coordinator</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title fade-up">Services</h2>
+      <p class="section-sub fade-up">Every project is built custom — no page builders, no templates. Choose the package that fits where you are right now.</p>
+      <div class="pricing-grid" id="pricing">
+        <div class="pricing-card fade-up stagger-1">
+          <div class="tier-name">Starter</div>
+          <div class="tier-price">$149<span>+</span></div>
+          <div class="tier-delivery">Delivered in ~5 days</div>
+          <ul class="feature-list">
+            <li>Up to 3 pages</li>
+            <li>Mobile responsive design</li>
+            <li>Contact form</li>
+            <li>Basic SEO setup</li>
+            <li>1 round of revisions</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="pricing-card pricing-card--featured fade-up stagger-2">
+          <div class="popular-badge">Most Popular</div>
+          <div class="tier-name">Business</div>
+          <div class="tier-price">$299<span>+</span></div>
+          <div class="tier-delivery">Delivered in ~1 week</div>
+          <ul class="feature-list">
+            <li>Up to 7 pages</li>
+            <li>Custom design & animations</li>
+            <li>Mobile responsive design</li>
+            <li>Contact form + integrations</li>
+            <li>Full SEO optimization</li>
+            <li>Google Analytics setup</li>
+            <li>2 rounds of revisions</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="pricing-card fade-up stagger-3">
+          <div class="tier-name">Premium</div>
+          <div class="tier-price">$599<span>+</span></div>
+          <div class="tier-delivery">Delivered in ~2 weeks</div>
+          <ul class="feature-list">
+            <li>Unlimited pages</li>
+            <li>Custom design system</li>
+            <li>E-commerce or booking integration</li>
+            <li>Advanced animations</li>
+            <li>Full SEO + performance audit</li>
+            <li>Priority support (30 days)</li>
+            <li>3 rounds of revisions</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+
+      <div class="addons fade-up">
+        <h3>Need Something Extra?</h3>
+        <div class="addons-grid">
+          <div class="addon-item">
+            <span class="addon-icon">📅</span>
+            <div><strong>Event Calendar</strong> — Synced, filterable, always up to date</div>
+          </div>
+          <div class="addon-item">
+            <span class="addon-icon">🖼</span>
+            <div><strong>Photo Gallery</strong> — Lightbox-style, beautifully organized</div>
+          </div>
+          <div class="addon-item">
+            <span class="addon-icon">📝</span>
+            <div><strong>Custom Forms</strong> — Applications, surveys, waitlists</div>
+          </div>
+          <div class="addon-item">
+            <span class="addon-icon">🔐</span>
+            <div><strong>Member Area</strong> — Gated content for your community</div>
+          </div>
+          <div class="addon-item">
+            <span class="addon-icon">🛒</span>
+            <div><strong>Online Store</strong> — Sell products or digital downloads</div>
+          </div>
+          <div class="addon-item">
+            <span class="addon-icon">✍️</span>
+            <div><strong>Blog / News Feed</strong> — Easy to update yourself</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio section-alt" id="portfolio">
+    <div class="container">
+      <h2 class="section-title fade-up">My Work</h2>
+      <div class="filter-bar fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="business">Business</button>
+        <button class="filter-btn" data-filter="school">School</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+        <button class="filter-btn" data-filter="personal">Personal</button>
+        <button class="filter-btn" data-filter="nonprofit">Nonprofit</button>
+      </div>
+      <div class="portfolio-grid" id="portfolio-grid">
+        <div class="portfolio-card" data-category="business">
+          <div class="portfolio-img portfolio-img-1">
+            <div class="portfolio-overlay"><span>→</span></div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Oakwood Interiors</h4>
+            <span class="portfolio-tag">Business</span>
+            <p>Interior design firm — portfolio & lead capture</p>
+            <a href="#" class="btn-text">Visit Website ↗</a>
+          </div>
+        </div>
+        <div class="portfolio-card" data-category="school">
+          <div class="portfolio-img portfolio-img-2">
+            <div class="portfolio-overlay"><span>→</span></div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Westlake Robotics</h4>
+            <span class="portfolio-tag">School</span>
+            <p>Club website with events, team, and gallery</p>
+            <a href="#" class="btn-text">Visit Website ↗</a>
+          </div>
+        </div>
+        <div class="portfolio-card" data-category="events">
+          <div class="portfolio-img portfolio-img-3">
+            <div class="portfolio-overlay"><span>→</span></div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Harvest Festival 2024</h4>
+            <span class="portfolio-tag">Events</span>
+            <p>Event site with ticketing and countdown timer</p>
+            <a href="#" class="btn-text">Visit Website ↗</a>
+          </div>
+        </div>
+        <div class="portfolio-card" data-category="personal">
+          <div class="portfolio-img portfolio-img-4">
+            <div class="portfolio-overlay"><span>→</span></div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Lena Voss — Author</h4>
+            <span class="portfolio-tag">Personal</span>
+            <p>Personal brand site with blog and newsletter signup</p>
+            <a href="#" class="btn-text">Visit Website ↗</a>
+          </div>
+        </div>
+        <div class="portfolio-card" data-category="nonprofit">
+          <div class="portfolio-img portfolio-img-5">
+            <div class="portfolio-overlay"><span>→</span></div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Bright Roots Foundation</h4>
+            <span class="portfolio-tag">Nonprofit</span>
+            <p>Donation-enabled site for a local youth nonprofit</p>
+            <a href="#" class="btn-text">Visit Website ↗</a>
+          </div>
+        </div>
+        <div class="portfolio-card" data-category="business">
+          <div class="portfolio-img portfolio-img-6">
+            <div class="portfolio-overlay"><span>→</span></div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Meridian Legal Group</h4>
+            <span class="portfolio-tag">Business</span>
+            <p>Professional services firm — trust-focused redesign</p>
+            <a href="#" class="btn-text">Visit Website ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="container">
+      <h2 class="section-title fade-up">How It Works</h2>
+      <p class="section-sub fade-up">A clear, collaborative process — so you always know what's happening and what comes next.</p>
+      <div class="process-steps">
+        <div class="process-step fade-up stagger-1">
+          <div class="step-number">01</div>
+          <h3>Discovery Call</h3>
+          <p>We hop on a quick call or chat to talk through your goals, your audience, and what you need from your website. This shapes everything that follows.</p>
+        </div>
+        <div class="process-arrow">→</div>
+        <div class="process-step fade-up stagger-2">
+          <div class="step-number">02</div>
+          <h3>Proposal & Quote</h3>
+          <p>I put together a clear scope of work, timeline, and flat-rate quote. No ambiguity — you know exactly what you're getting before we start.</p>
+        </div>
+        <div class="process-arrow">→</div>
+        <div class="process-step fade-up stagger-3">
+          <div class="step-number">03</div>
+          <h3>Design & Build</h3>
+          <p>I get to work building your site — handling design, code, and content placement. You'll see a preview before anything is finalized.</p>
+        </div>
+        <div class="process-arrow">→</div>
+        <div class="process-step fade-up stagger-4">
+          <div class="step-number">04</div>
+          <h3>Your Feedback</h3>
+          <p>You review the site and share any changes. We go through your revision rounds until everything feels exactly right.</p>
+        </div>
+        <div class="process-arrow">→</div>
+        <div class="process-step fade-up stagger-5">
+          <div class="step-number">05</div>
+          <h3>Launch</h3>
+          <p>Your site goes live. I handle deployment, make sure everything works perfectly, and hand over everything you need to manage it going forward.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section-alt" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-photo fade-up">
+          <div class="about-photo-inner"></div>
+        </div>
+        <div class="about-text fade-up delay-1">
+          <h2>Hi, I'm Prathika.</h2>
+          <p>I'm a web designer and developer passionate about building digital spaces that actually work for the people using them. I started PixelBloom Studio because I kept seeing small businesses and organizations settle for generic, forgettable websites — and I knew they deserved better.</p>
+          <p>Every project I take on gets my full attention. I care about the details — the spacing, the colors, the way a button feels when you hover over it — because I know those details are what separate a good website from one that builds real trust.</p>
+          <blockquote class="mission-quote">"Good design isn't decoration. It's the clearest way to show someone you take your work seriously."</blockquote>
+          <div class="values-row">
+            <div class="value-item">
+              <span>🎨</span>
+              <div>Creativity</div>
+            </div>
+            <div class="value-item">
+              <span>🤝</span>
+              <div>Professionalism</div>
+            </div>
+            <div class="value-item">
+              <span>💬</span>
+              <div>Communication</div>
+            </div>
+            <div class="value-item">
+              <span>🔍</span>
+              <div>Attention to Detail</div>
+            </div>
+            <div class="value-item">
+              <span>✅</span>
+              <div>Reliability</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2 class="fade-up">Ready to Build Something Amazing?</h2>
+      <p class="fade-up delay-1">Let's turn your vision into a website that actually works for you.</p>
+      <a href="#contact" class="btn btn-sage fade-up delay-2">Let's Talk</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title fade-up">Let's Work Together</h2>
+      <p class="section-sub fade-up">Fill out the form below and I'll get back to you within 24 hours to discuss your project.</p>
+      <form class="contact-form fade-up" id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="field-wrap">
+            <input type="text" id="name" name="name" required placeholder=" " />
+            <label for="name">Your Name</label>
+          </div>
+          <div class="field-wrap">
+            <input type="text" id="business" name="business" placeholder=" " />
+            <label for="business">Business Name (optional)</label>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field-wrap">
+            <input type="email" id="email" name="email" required placeholder=" " />
+            <label for="email">Email Address</label>
+            <span class="field-error" id="email-error"></span>
+          </div>
+          <div class="field-wrap">
+            <input type="tel" id="phone" name="phone" placeholder=" " />
+            <label for="phone">Phone Number (optional)</label>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field-wrap">
+            <select id="website-type" name="website-type" required>
+              <option value="" disabled selected></option>
+              <option>Business Website</option>
+              <option>School / Club</option>
+              <option>Event Website</option>
+              <option>Personal Brand</option>
+              <option>Nonprofit</option>
+              <option>E-commerce</option>
+              <option>Other</option>
+            </select>
+            <label for="website-type" class="select-label">Type of Website Needed</label>
+          </div>
+          <div class="field-wrap">
+            <select id="budget" name="budget" required>
+              <option value="" disabled selected></option>
+              <option>Under $200</option>
+              <option>$200 – $400</option>
+              <option>$400 – $700</option>
+              <option>$700+</option>
+              <option>Not sure yet</option>
+            </select>
+            <label for="budget" class="select-label">Budget Range</label>
+          </div>
+        </div>
+        <div class="field-wrap">
+          <textarea id="description" name="description" rows="5" placeholder=" "></textarea>
+          <label for="description">Project Description</label>
+        </div>
+        <div class="field-wrap field-wrap--half">
+          <input type="text" id="deadline" name="deadline" placeholder=" " />
+          <label for="deadline">Preferred Deadline</label>
+        </div>
+        <button type="submit" class="btn btn-submit">Send My Project Details →</button>
+        <div class="form-success" id="form-success">
+          <span>🎉</span>
+          <div>
+            <strong>Message sent!</strong>
+            <p>Thanks for reaching out. I'll be in touch within 24 hours.</p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-name">PixelBloom Studio</div>
+          <div class="footer-tagline">Websites that mean business.</div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col-title">Quick Links</div>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <div class="footer-col-title">Get In Touch</div>
+          <a href="mailto:hello@pixelbloomstudio.com">hello@pixelbloomstudio.com</a>
+          <div class="social-icons">
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="Behance">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 6h8a4 4 0 0 1 0 8H2V6z"/><path d="M2 14h9a4 4 0 0 1 0 8H2v-8z"/><line x1="14" y1="7" x2="21" y2="7"/><path d="M14 12h7M14 17h5a3 3 0 0 0 0-6h-5v6z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 PixelBloom Studio. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
