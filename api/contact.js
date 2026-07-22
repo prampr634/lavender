@@ -16,10 +16,10 @@ export default async function handler(req, res) {
     deadline,
   } = req.body;
 
-console.log("GMAIL_USER:", process.env.GMAIL_USER);
-console.log("HAS_APP_PASSWORD:", !!process.env.GMAIL_APP_PASSWORD);
+  console.log("GMAIL_USER:", process.env.GMAIL_USER);
+  console.log("HAS_APP_PASSWORD:", !!process.env.GMAIL_APP_PASSWORD);
 
-const transporter = nodemailer.createTransport({({
+  const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
       user: process.env.GMAIL_USER,
